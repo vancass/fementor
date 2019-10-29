@@ -1,0 +1,46 @@
+ body {
+    font-family: 'Josefin Sans', sans-serif;
+     margin: 0;
+     padding: 0;
+     background-image: url("./images/bg-pattern-desktop.svg")
+ }
+
+ .hero-img {
+     position: fixed;
+     top: 0;
+     right: 0;
+     width: 30%;
+     height: 100%;  
+     background-image: url("./images/hero-desktop.jpg");
+     background-position: center;
+ }
+
+ header {
+     margin-top: 3rem;
+     margin-left: 5rem;
+ }
+
+ main {
+     margin-top: 5rem;  
+     width: 50%;
+     padding: 3rem 5rem;
+ }
+
+ h1 {
+     font-weight: 600;
+     text-transform: uppercase;
+     font-size: 64px;
+     letter-spacing: 12px;
+ }
+
+ h1 span {
+     color: #ce9797;
+     font-weight: 300;  
+     text-transform: uppercase;
+ }
+
+ main p{
+    color: #ce9797;
+    line-height: 32px;
+
+ }
