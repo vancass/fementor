@@ -74,9 +74,12 @@ form input {
     border-radius: 50px;
     background: linear-gradient(135deg, #f8bfbf 0%, #ee8c8c 100%);
     box-sizing: border-box;
+    cursor: pointer;
 }
 
-
+.submit-btn:hover {
+    background: linear-gradient(45deg, #f8e0e0 0%, #ee8c8c 100%);
+}
 
 
 @media (min-width: 800px) {
@@ -131,6 +134,5 @@ form input {
     
     .submit-btn {
         width: 100px;
-
     }
 }
